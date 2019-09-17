@@ -13,3 +13,7 @@ describe Student do
     expect(@student.to_s).to eq("Daenerys Targaryen")
   end
 end
+
+
+
+    Post.create!(title: "My title", description: "The post description")
