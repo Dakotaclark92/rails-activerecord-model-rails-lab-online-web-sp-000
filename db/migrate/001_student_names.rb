@@ -1,5 +1,9 @@
   
-  
+  class CreateStudent < ActiveRecord::Migration
+    def change
+      create_table :posts do |t|
+        t.string :first_name
+        t.strung :last_name
   
     class CreatePosts < ActiveRecord::Migration
       def change
